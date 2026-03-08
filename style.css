@@ -6,10 +6,33 @@
     background-color: #FF5252;
 }
 
-body{
-    background-color: white;
+
+.answer{
+    background-color: #F2F0EF;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid;
+    max-width: 1000px;
+}
+
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .question{
-
+    color:white;
 }
+
+body{
+    background-color:#333030;
+}
+
+.intro{
+    color:white;
+    flex-direction: column;
+    line-height: 5px;
+}
+
