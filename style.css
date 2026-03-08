@@ -11,11 +11,11 @@
     background-color: #F2F0EF;
     padding: 10px;
     border-radius: 12px;
-    border: 2px solid;
+    border: 1px solid;
     max-width: 1000px;
 }
 
-.quiz{
+.center{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -23,5 +23,16 @@
 }
 
 .question{
-    font:100px
+    color:white;
 }
+
+body{
+    background-color:#333030;
+}
+
+.intro{
+    color:white;
+    flex-direction: column;
+    line-height: 5px;
+}
+
